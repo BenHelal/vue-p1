@@ -1,6 +1,6 @@
 <script setup>
-import MyEvent from './components/loginEvents.vue'
+import MyReactiveComponent from './components/MyRefComp.vue'
 </script>
-<template><MyEvent /></template>
+<template><MyReactiveComponent /></template>
 
 <style scoped></style>
