@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 let count = ref(0)
 let username = ref('')
+let userList = ref(['Wajdi', 'ben', 'helal'])
 </script>
 
 <template>
@@ -12,4 +13,7 @@ let username = ref('')
 
   <h1>username : {{ username }}</h1>
   <button @click="username = 'username field'">Add username</button>
+
+  <h1>userList : {{ userList }}</h1>
+  <button @click="userList.push('wbh')">add</button>
 </template>
